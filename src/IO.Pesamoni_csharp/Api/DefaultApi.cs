@@ -265,9 +265,6 @@ namespace IO.Pesamoni_csharp.Api
             // verify the required parameter 'method' is set
             if (method == null)
                 throw new ApiException(400, "Missing required parameter 'method' when calling DefaultApi->TransactionsPost");
-            // verify the required parameter 'amount' is set
-            if (amount == null)
-                throw new ApiException(400, "Missing required parameter 'amount' when calling DefaultApi->TransactionsPost");
 
             var localVarPath = "/transactions";
             var localVarPathParams = new Dictionary<String, String>();
@@ -386,9 +383,6 @@ namespace IO.Pesamoni_csharp.Api
             // verify the required parameter 'method' is set
             if (method == null)
                 throw new ApiException(400, "Missing required parameter 'method' when calling DefaultApi->TransactionsPost");
-            // verify the required parameter 'amount' is set
-            if (amount == null)
-                throw new ApiException(400, "Missing required parameter 'amount' when calling DefaultApi->TransactionsPost");
 
             var localVarPath = "/transactions";
             var localVarPathParams = new Dictionary<String, String>();
